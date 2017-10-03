@@ -1,11 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/** ****************************************************
+ * NAME: KEVAL VARIA
+ * CLASS: CS4B
+ * PROGRAM: BLACKJACK PART 1
+ * FILE: CARDS.JAVA
+ ***************************************************** */
 package blackjack;
 
 import java.util.concurrent.ThreadLocalRandom;
+import javafx.scene.image.Image;
 
 /**
  *
@@ -116,6 +118,16 @@ public class Cards {
         }
     }
 
+    public Image getImageCard1() {
+
+        return new Image("File:\\\\\\\\C:\\Users\\keval\\Documents\\NetBeansProjects\\Blackjack\\src\\cards\\png\\" + getRank1() + "_of_" + getSuit1().toLowerCase() + ".png");
+    }
+
+    public Image getImageCard2() {
+
+        return new Image("File:\\\\\\\\C:\\Users\\keval\\Documents\\NetBeansProjects\\Blackjack\\src\\cards\\png\\" + getRank2() + "_of_" + getSuit2().toLowerCase() + ".png");
+    }
+
     /**
      *
      * @return
@@ -126,7 +138,5 @@ public class Cards {
                 + "CARD #2: " + getRank2() + " of " + getSuit2() + "\n"
                 + "SUM: " + getResult() + "\n\n");
     }
-    
-    
 
 }
