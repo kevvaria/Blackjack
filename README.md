@@ -1,5 +1,9 @@
 # Blackjack
 
-UI developed using JavaFX SceneBuilder from Gluon
+A two-card BlackJack game
 
-Backend development: Java version 9
+- UI developed using JavaFX SceneBuilder from Gluon
+
+- Backend development: Java version 9
+
+- Course: CS 4A Introduction to Java Programming
